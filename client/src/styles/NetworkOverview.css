@@ -1,0 +1,106 @@
+.network-card {
+  background: #1b2430;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.network-card h3 {
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.topology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.node {
+  width: 120px;
+  height: 70px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  gap: 6px;
+
+  font-size: 14px;
+}
+
+.internet {
+  background: #06b6d4;
+}
+
+.router {
+  background: #2563eb;
+}
+
+.line {
+  width: 4px;
+  height: 45px;
+  background: #00e5ff;
+  margin: 10px 0;
+}
+
+.devices {
+  margin-top: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 18px;
+}
+
+.device,
+.rogue {
+  width: 90px;
+
+  height: 70px;
+
+  border-radius: 12px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: white;
+
+  font-size: 13px;
+}
+
+.device {
+  background: #1d4ed8;
+}
+
+.rogue {
+  background: #dc2626;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-left h1 {
+  color: #00e5ff;
+  font-size: 30px;
+  margin: 0;
+}
+
+.header-left p {
+  color: #94a3b8;
+  margin-top: 6px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.server-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #13202f;
+  color: #00ff99;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.status-dot {
+  font-size: 10px;
+}
+
+.clock {
+  color: white;
+  font-weight: 600;
+}
+
+.icon {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: #00e5ff;
+}
+
+.avatar {
+  font-size: 34px;
+  color: #00e5ff;
+}
