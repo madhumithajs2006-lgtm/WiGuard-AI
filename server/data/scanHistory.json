@@ -1,5 +1,1511 @@
 [
   {
+    "time": "2026-07-01T12:08:37.192Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:07:37.232Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:06:37.242Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:05:37.197Z",
+    "status": "SAFE",
+    "totalNetworks": 2,
+    "secureNetworks": 2,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Airtel_sang_6699",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "84:6e:bc:c6:99:aa",
+        "signal": 57,
+        "band": "2.4 GHz",
+        "channel": 11,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      },
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:04:37.204Z",
+    "status": "SAFE",
+    "totalNetworks": 2,
+    "secureNetworks": 2,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Airtel_sang_6699",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "84:6e:bc:c6:99:aa",
+        "signal": 57,
+        "band": "2.4 GHz",
+        "channel": 11,
+        "score": 10,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected"
+      },
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:03:37.251Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:47.190Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:42.200Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:37.197Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:32.223Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:27.178Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:22.241Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:17.224Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:12.167Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:07.244Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:02:02.221Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:01:57.349Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:01:52.230Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:01:48.560Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:01:37.238Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T12:00:37.245Z",
+    "status": "DANGER",
+    "totalNetworks": 6,
+    "secureNetworks": 5,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 1,
+    "rogueAPs": 1,
+    "networks": [
+      {
+        "ssid": "Airtel_sang_6699",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "84:6e:bc:c6:99:aa",
+        "signal": 26,
+        "band": "2.4 GHz",
+        "channel": 11,
+        "score": 10,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Weak Signal"
+      },
+      {
+        "ssid": "SATHYAMOORTHY",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "4c:ae:1c:6f:e6:e2",
+        "signal": 31,
+        "band": "2.4 GHz",
+        "channel": 8,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      },
+      {
+        "ssid": "Wifi_SW7RXNHE5T",
+        "authentication": "Open",
+        "encryption": "None",
+        "bssid": "d2:ba:e4:35:30:49",
+        "signal": 40,
+        "band": "2.4 GHz",
+        "channel": 6,
+        "score": 70,
+        "risk": "POSSIBLE ROGUE AP",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Open Authentication, Suspicious SSID Name"
+      },
+      {
+        "ssid": "Airtel_moor_4623",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "a0:91:ca:70:05:3a",
+        "signal": 20,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 10,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Weak Signal"
+      },
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      },
+      {
+        "ssid": "Subramanyam",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "44:fb:5a:96:84:2a",
+        "signal": 85,
+        "band": "2.4 GHz",
+        "channel": 0,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 1,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:59:37.247Z",
+    "status": "DANGER",
+    "totalNetworks": 6,
+    "secureNetworks": 3,
+    "suspiciousNetworks": 2,
+    "highRiskNetworks": 1,
+    "rogueAPs": 1,
+    "networks": [
+      {
+        "ssid": "Airtel_sang_6699",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "84:6e:bc:c6:99:aa",
+        "signal": 26,
+        "band": "2.4 GHz",
+        "channel": 11,
+        "score": 20,
+        "risk": "MEDIUM",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected, Weak Signal"
+      },
+      {
+        "ssid": "SATHYAMOORTHY",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "4c:ae:1c:6f:e6:e2",
+        "signal": 31,
+        "band": "2.4 GHz",
+        "channel": 8,
+        "score": 10,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected"
+      },
+      {
+        "ssid": "Wifi_SW7RXNHE5T",
+        "authentication": "Open",
+        "encryption": "None",
+        "bssid": "d2:ba:e4:35:30:49",
+        "signal": 40,
+        "band": "2.4 GHz",
+        "channel": 6,
+        "score": 80,
+        "risk": "POSSIBLE ROGUE AP",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected, Open Authentication, Suspicious SSID Name"
+      },
+      {
+        "ssid": "Airtel_moor_4623",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "a0:91:ca:70:05:3a",
+        "signal": 20,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 20,
+        "risk": "MEDIUM",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected, Weak Signal"
+      },
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      },
+      {
+        "ssid": "Subramanyam",
+        "authentication": "WPA2-Personal",
+        "encryption": "CCMP",
+        "bssid": "44:fb:5a:96:84:2a",
+        "signal": 85,
+        "band": "2.4 GHz",
+        "channel": 0,
+        "score": 10,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "New Network Detected"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:58:37.284Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:57.310Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:52.442Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:47.226Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:42.376Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:37.215Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:32.322Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:27.206Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:22.214Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:17.591Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:12.250Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:07.224Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:57:02.576Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:57.258Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:52.260Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:47.403Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:42.208Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:37.235Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:32.629Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:27.298Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:22.224Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:17.314Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:12.242Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:07.217Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:56:04.233Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:55:37.389Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:54:37.275Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:53:37.320Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
+    "time": "2026-07-01T11:52:37.331Z",
+    "status": "SAFE",
+    "totalNetworks": 1,
+    "secureNetworks": 1,
+    "suspiciousNetworks": 0,
+    "highRiskNetworks": 0,
+    "rogueAPs": 0,
+    "networks": [
+      {
+        "ssid": "Pixel 7",
+        "authentication": "WPA3-Personal",
+        "encryption": "CCMP",
+        "bssid": "66:27:e0:1f:89:48",
+        "signal": 99,
+        "band": "2.4 GHz",
+        "channel": 1,
+        "score": 0,
+        "risk": "SAFE",
+        "signalChange": 0,
+        "appearances": 0,
+        "disappearances": 0,
+        "reason": "Secure Network"
+      }
+    ]
+  },
+  {
     "time": "2026-07-01T11:51:37.216Z",
     "status": "SAFE",
     "totalNetworks": 1,
@@ -2918,1962 +4424,6 @@
         "risk": "SAFE",
         "signalChange": 0,
         "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:12:00.391Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:52.975Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:48.544Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:46.000Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:38.205Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:33.164Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 6,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 70,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:28.135Z",
-    "status": "DANGER",
-    "totalNetworks": 7,
-    "secureNetworks": 4,
-    "suspiciousNetworks": 2,
-    "highRiskNetworks": 1,
-    "rogueAPs": 1,
-    "networks": [
-      {
-        "ssid": "Airtel_sang_6699",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "84:6e:bc:c6:99:aa",
-        "signal": 50,
-        "band": "2.4 GHz",
-        "channel": 11,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected"
-      },
-      {
-        "ssid": "SATHYAMOORTHY",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "4c:ae:1c:6f:e6:e2",
-        "signal": 29,
-        "band": "2.4 GHz",
-        "channel": 8,
-        "score": 20,
-        "risk": "MEDIUM",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected, Weak Signal"
-      },
-      {
-        "ssid": "Arunintn",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "e4:ca:12:ae:ef:90",
-        "signal": 26,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 20,
-        "risk": "MEDIUM",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected, Weak Signal"
-      },
-      {
-        "ssid": "Airtel_moor_4623",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "a0:91:ca:70:05:3a",
-        "signal": 33,
-        "band": "2.4 GHz",
-        "channel": 1,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected"
-      },
-      {
-        "ssid": "Wifi_SW7RXNHE5T",
-        "authentication": "Open",
-        "encryption": "None",
-        "bssid": "d2:ba:e4:35:30:49",
-        "signal": 40,
-        "band": "2.4 GHz",
-        "channel": 6,
-        "score": 80,
-        "risk": "POSSIBLE ROGUE AP",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected, Open Authentication, Suspicious SSID Name"
-      },
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:0c:8b:29:3c:d9",
-        "signal": 86,
-        "band": "2.4 GHz",
-        "channel": 13,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected"
-      },
-      {
-        "ssid": "Subramanyam",
-        "authentication": "WPA2-Personal",
-        "encryption": "CCMP",
-        "bssid": "44:fb:5a:96:84:2a",
-        "signal": 84,
-        "band": "2.4 GHz",
-        "channel": 0,
-        "score": 10,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "New Network Detected"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:23.134Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 87,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:18.336Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 87,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:11:14.046Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 87,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 1,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:10:37.290Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 3,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:09:37.294Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 83,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": -2,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:09:03.242Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 85,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": -1,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:58.338Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:53.285Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:48.285Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:43.334Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:38.252Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:33.289Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:28.277Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:23.288Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:18.273Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:13.243Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:08.567Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:03.786Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:03.278Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:08:01.313Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 86,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 3,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:56.153Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 83,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:51.569Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 83,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:51.176Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 83,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 3,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:45.248Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 80,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 2,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:40.256Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 78,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:35.274Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 78,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:30.238Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 78,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 3,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:25.275Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 75,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:19.485Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 75,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:14.760Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 75,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:10.270Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 75,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 8,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:05.292Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 67,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:07:00.236Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 67,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": -5,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:55.279Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 72,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:50.227Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 72,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 2,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:45.286Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 70,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:40.341Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 70,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:35.228Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 70,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:30.265Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 70,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:25.225Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 70,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 3,
-        "appearances": 0,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:20.259Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 67,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:14.548Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 67,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:09.575Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 67,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 2,
-        "appearances": 1,
-        "disappearances": 0,
-        "reason": "Secure Network"
-      }
-    ]
-  },
-  {
-    "time": "2026-07-01T11:06:04.887Z",
-    "status": "SAFE",
-    "totalNetworks": 1,
-    "secureNetworks": 1,
-    "suspiciousNetworks": 0,
-    "highRiskNetworks": 0,
-    "rogueAPs": 0,
-    "networks": [
-      {
-        "ssid": "Pixel 7",
-        "authentication": "WPA3-Personal",
-        "encryption": "CCMP",
-        "bssid": "d6:f3:74:29:3c:d9",
-        "signal": 65,
-        "band": "5 GHz",
-        "channel": 161,
-        "score": 0,
-        "risk": "SAFE",
-        "signalChange": 0,
-        "appearances": 1,
         "disappearances": 0,
         "reason": "Secure Network"
       }

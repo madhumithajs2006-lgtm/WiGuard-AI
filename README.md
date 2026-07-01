@@ -249,9 +249,9 @@ http://localhost:5173
 
 The main dashboard provides a real-time overview of nearby Wi-Fi networks, security status, detected threats, and recent security events.
 
-![Dashboard](screenshots/dashboard1.png)
-![Dashboard](screenshots/dashboard2.png)
-![Dashboard](screenshots/dashboard3.png)
+![Dashboard](screenshot/dashboard1.png)
+![Dashboard](screenshot/dashboard2.png)
+![Dashboard](screenshot/dashboard3.png)
 
 ---
 
@@ -259,7 +259,7 @@ The main dashboard provides a real-time overview of nearby Wi-Fi networks, secur
 
 Visualizes network statistics, threat distribution, signal strength trends, and rogue access point detection using interactive charts.
 
-![Analytics](screenshots/analytics.png)
+![Analytics](screenshot/analytics.png)
 
 ---
 
@@ -267,7 +267,7 @@ Visualizes network statistics, threat distribution, signal strength trends, and 
 
 Displays previously recorded Wi-Fi scans with timestamps, network counts, security status, and detected threats.
 
-![Scan History](screenshots/history.png)
+![Scan History](screenshot/history.png)
 
 ---
 
@@ -275,7 +275,7 @@ Displays previously recorded Wi-Fi scans with timestamps, network counts, securi
 
 Generate comprehensive security reports with threat summaries and export them as CSV or PDF.
 
-![Reports](screenshots/reports.png)
+![Reports](screenshot/reports.png)
 
 ---
 
@@ -283,7 +283,7 @@ Generate comprehensive security reports with threat summaries and export them as
 
 Configure scan preferences, notification options, scan intervals, and view backend connection status.
 
-![Settings](screenshots/settings.png)
+![Settings](screenshot/settings.png)
 
 # 🔮 Future Enhancements
 
