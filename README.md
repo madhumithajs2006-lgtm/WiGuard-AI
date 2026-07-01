@@ -317,7 +317,7 @@ Windows does not provide raw 802.11 frame capture through netsh, therefore:
 
 **Yosinika**
 
-Computer Science Engineering Student
+Computer Science Engineering Students
 
 ---
 
