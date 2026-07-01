@@ -1,35 +1,50 @@
-const fs = require("fs");
-const path = require("path");
+const { scanWifi } = require("./windowsWifiScanner");
+const { analyzeNetworks } = require("./detectionService");
+const { saveScan } = require("./historyService");
 
-const filePath = path.join(__dirname, "../data/scans.json");
+async function getAllScans() {
+  // Perform a real Wi-Fi scan
+  const networks = await scanWifi();
 
-// Get all scans
-const getAllScans = () => {
-  try {
-    const data = fs.readFileSync(filePath, "utf8");
+  // Analyze detected networks
+  const analyzed = analyzeNetworks(networks);
 
-    return JSON.parse(data);
-  } catch (err) {
-    return [];
-  }
-};
+  // Calculate dashboard summary
+  const totalNetworks = analyzed.length;
 
-// Save a new scan
-const saveScan = (scan) => {
-  const scans = getAllScans();
+  const secureNetworks = analyzed.filter((n) => n.risk === "SAFE").length;
 
-  scans.unshift(scan); // newest first
+  const suspiciousNetworks = analyzed.filter(
+    (n) => n.risk === "MEDIUM" || n.risk === "SUSPICIOUS",
+  ).length;
 
-  fs.writeFileSync(filePath, JSON.stringify(scans, null, 2));
-};
+  const highRiskNetworks = analyzed.filter(
+    (n) => n.risk === "HIGH" || n.risk === "POSSIBLE ROGUE AP",
+  ).length;
 
-// Delete all scans
-const clearScans = () => {
-  fs.writeFileSync(filePath, JSON.stringify([], null, 2));
-};
+  const rogueAPs = analyzed.filter(
+    (n) => n.risk === "POSSIBLE ROGUE AP",
+  ).length;
+
+  const status =
+    rogueAPs > 0 ? "DANGER" : highRiskNetworks > 0 ? "WARNING" : "SAFE";
+
+  // Save this scan into history
+  saveScan({
+    time: new Date().toISOString(),
+    status,
+    totalNetworks,
+    secureNetworks,
+    suspiciousNetworks,
+    highRiskNetworks,
+    rogueAPs,
+    networks: analyzed,
+  });
+
+  // Return current scan to dashboard
+  return analyzed;
+}
 
 module.exports = {
   getAllScans,
-  saveScan,
-  clearScans,
 };

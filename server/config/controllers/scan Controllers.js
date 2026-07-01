@@ -1,4 +1,4 @@
-const Scan = require("../models/Scan");
+const Scan = require("../../models/Scan");
 
 exports.getAllScans = async (req, res) => {
   try {

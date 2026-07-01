@@ -3,22 +3,42 @@ import "../../styles/Activity.css";
 function Activity({ activity }) {
   return (
     <div className="activity-card">
+
       <div className="activity-header">
-        <h3>🚨 Live Threat Feed</h3>
-        <span>{activity.length} Events</span>
+
+        <div>
+          <h3>⚡ Live Monitoring Console</h3>
+          <p>Real-time wireless security events</p>
+        </div>
+
+        <span className="live-tag">
+          ● LIVE
+        </span>
+
       </div>
 
-      <div className="activity-list">
+      <div className="activity-terminal">
+
         {activity.length === 0 ? (
-          <p className="empty">Waiting for network activity...</p>
+          <div className="empty-terminal">
+            Waiting for scan activity...
+          </div>
         ) : (
           activity.map((item, index) => (
-            <div key={index} className="activity-item">
-              {item}
+            <div key={index} className="activity-line">
+
+              <span className="terminal-arrow">
+                &gt;
+              </span>
+
+              <span>{item}</span>
+
             </div>
           ))
         )}
+
       </div>
+
     </div>
   );
 }

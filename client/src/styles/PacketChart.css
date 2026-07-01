@@ -1,18 +1,133 @@
 .chart-card {
-  margin-top: 25px;
-  background: #1b2430;
-  padding: 22px;
-  border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: #101010;
+
+  border: 1px solid #222;
+
+  border-radius: 22px;
+
+  padding: 28px;
+
+  margin: 30px 0;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+
   transition: 0.3s;
 }
 
 .chart-card:hover {
-  box-shadow: 0 0 25px rgba(0, 229, 255, 0.18);
+  border-color: #00ff9d;
+
+  box-shadow: 0 0 25px rgba(0, 255, 157, 0.12);
 }
 
-.chart-card h3 {
-  color: #00e5ff;
-  margin-bottom: 20px;
-  font-size: 22px;
+.chart-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.chart-top h2 {
+  color: white;
+
+  font-size: 24px;
+
+  margin-bottom: 8px;
+}
+
+.chart-top p {
+  color: #8f99a5;
+}
+
+.chart-right {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+}
+
+.signal-box {
+  background: #181818;
+
+  border: 1px solid #252525;
+
+  padding: 14px 18px;
+
+  border-radius: 14px;
+
+  text-align: center;
+}
+
+.signal-box small {
+  color: #8f99a5;
+
+  letter-spacing: 1px;
+
+  font-size: 11px;
+}
+
+.signal-box h3 {
+  color: #00ff9d;
+
+  font-size: 28px;
+
+  margin-top: 6px;
+}
+
+.live-badge {
+  padding: 8px 16px;
+
+  border-radius: 30px;
+
+  background: rgba(0, 255, 157, 0.12);
+
+  border: 1px solid rgba(0, 255, 157, 0.25);
+
+  color: #00ff9d;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.45;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #8f99a5;
+
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .chart-top {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 20px;
+  }
+
+  .chart-right {
+    width: 100%;
+
+    justify-content: space-between;
+  }
 }

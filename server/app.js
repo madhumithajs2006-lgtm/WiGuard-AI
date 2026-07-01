@@ -1,13 +1,17 @@
 require("dotenv").config();
-
+const analyticsRoutes = require("./routes/analytics");
+const { analyzeNetworks } = require("./services/detectionService");
+const { generateDashboard } = require("./services/dashboardService");
 const express = require("express");
 const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
 
 const statusRoute = require("./routes/status");
+console.log("✅ scans.js loaded");
 const scansRoute = require("./routes/scans");
 const reportRoutes = require("./routes/reports");
+const historyRoute = require("./routes/history");
 const startPythonDetector = require("./services/pythonService");
 
 const app = express();
@@ -30,9 +34,11 @@ app.use(express.json());
 // ===============================
 
 app.use("/api/status", statusRoute);
+console.log("✅ registering /api/scans");
 app.use("/api/scans", scansRoute);
 app.use("/api/reports", reportRoutes);
-
+app.use("/api/history", historyRoute);
+app.use("/api/analytics", analyticsRoutes);
 app.get("/", (req, res) => {
   res.send("🚀 WiGuard AI Backend Running");
 });
@@ -62,29 +68,19 @@ const io = new Server(server, {
 io.on("connection", (socket) => {
   console.log("🟢 Client Connected");
 
-  let packets = 120;
-  let rogueAPs = 1;
-  let clients = 8;
+  const interval = setInterval(async () => {
+    try {
+      const wifi = await scanWifi();
 
-  const interval = setInterval(() => {
-    packets += Math.floor(Math.random() * 10);
+      const analyzed = analyzeNetworks(wifi);
 
-    if (Math.random() > 0.8) {
-      clients++;
+      const dashboard = generateDashboard(analyzed);
+
+      socket.emit("dashboardData", dashboard);
+    } catch (err) {
+      console.error(err);
     }
-
-    if (Math.random() > 0.95) {
-      rogueAPs++;
-    }
-
-    socket.emit("dashboardData", {
-      packets,
-      rogueAPs,
-      clients,
-      alerts: rogueAPs,
-      status: rogueAPs >= 3 ? "DANGER" : rogueAPs >= 1 ? "WARNING" : "SAFE",
-    });
-  }, 1000);
+  }, 5000);
 
   socket.on("disconnect", () => {
     console.log("🔴 Client Disconnected");
@@ -102,6 +98,7 @@ io.on("connection", (socket) => {
 // ===============================
 // START SERVER
 // ===============================
+const { scanWifi } = require("./services/windowsWifiScanner");
 
 const PORT = process.env.PORT || 5000;
 

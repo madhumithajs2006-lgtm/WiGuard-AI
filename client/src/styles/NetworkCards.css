@@ -1,0 +1,105 @@
+.network-card {
+  background: #162131;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 6px solid #00e5ff;
+  transition: 0.3s;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.network-card:hover {
+  transform: translateY(-4px);
+}
+
+.network-card.safe {
+  border-left-color: #00ff99;
+}
+
+.network-card.medium {
+  border-left-color: #ffd54f;
+}
+
+.network-card.high {
+  border-left-color: #ff9800;
+}
+
+.network-card.rogue {
+  border-left-color: #ff4d4d;
+}
+
+.network-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.network-header h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.risk-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.risk-badge.safe {
+  background: #00ff99;
+  color: #081018;
+}
+
+.risk-badge.medium {
+  background: #ffd54f;
+  color: black;
+}
+
+.risk-badge.high {
+  background: #ff9800;
+  color: white;
+}
+
+.risk-badge.rogue {
+  background: #ff4d4d;
+  color: white;
+}
+
+.network-details p {
+  color: #d7e2ee;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.signal-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.signal-bar {
+  flex: 1;
+  height: 12px;
+  background: #253347;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.signal-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00ff99, #00e5ff);
+  transition: 0.5s;
+}
+
+.reason-box {
+  margin-top: 15px;
+  background: #1e2c40;
+  padding: 12px;
+  border-left: 4px solid #00e5ff;
+  border-radius: 10px;
+  color: #e2e8f0;
+  font-weight: 600;
+}

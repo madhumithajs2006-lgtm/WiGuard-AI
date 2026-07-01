@@ -5,43 +5,62 @@ import axios from "axios";
 import Sidebar from "../components/layout/Sidebar";
 import Header from "../components/layout/Header";
 
-import {
-  FaFilePdf,
-  FaFileCsv,
-  FaShieldAlt,
-  FaBug,
-  FaNetworkWired,
-} from "react-icons/fa";
+import { FaShieldAlt, FaBug, FaNetworkWired } from "react-icons/fa";
 
 function Reports() {
-  const [scans, setScans] = useState([]);
+  const [report, setReport] = useState(null);
 
   useEffect(() => {
-    loadScans();
+    loadReport();
   }, []);
 
-  async function loadScans() {
+  async function loadReport() {
     try {
-      const res = await axios.get("https://wiguard-ai.onrender.com/api/scans");
-      setScans(res.data);
+      const res = await axios.get("http://localhost:5000/api/reports");
+      setReport(res.data);
     } catch (err) {
       console.error(err);
     }
   }
 
-  const totalScans = scans.length;
+  function exportCSV() {
+    if (!report) return;
 
-  const totalClients = scans.reduce((sum, scan) => sum + scan.clients, 0);
+    const rows = [
+      ["Time", "SSID", "Risk", "Signal", "Reason"],
+      ...report.threats.map((t) => [
+        t.time,
+        t.ssid,
+        t.risk,
+        t.signal,
+        t.reason,
+      ]),
+    ];
 
-  const totalThreats = scans.reduce((sum, scan) => sum + scan.rogueAPs, 0);
+    const csv = rows.map((r) => r.join(",")).join("\n");
 
-  async function downloadCSV() {
-    window.open("https://wiguard-ai.onrender.com/api/reports/csv");
+    const blob = new Blob([csv], {
+      type: "text/csv",
+    });
+
+    const url = window.URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "WiGuard_Report.csv";
+    a.click();
   }
 
-  async function downloadPDF() {
-    window.open("https://wiguard-ai.onrender.com/api/reports/pdf");
-  }
+  if (!report)
+    return (
+      <>
+        <Sidebar />
+        <div className="app">
+          <Header />
+          <h2>Loading Report...</h2>
+        </div>
+      </>
+    );
 
   return (
     <>
@@ -50,46 +69,105 @@ function Reports() {
       <div className="app">
         <Header />
 
-        <h1 className="page-title">📑 Security Reports</h1>
+        <h1 className="page-title">📄 Security Reports</h1>
+        <p className="page-subtitle">
+          Comprehensive wireless intrusion detection report generated from live
+          scan history.
+        </p>
 
         <div className="report-summary">
           <div className="summary-card">
-            <FaShieldAlt />
-            <h2>{totalScans}</h2>
+            <FaShieldAlt size={40} />
+            <h2>{report.totalScans}</h2>
             <p>Total Scans</p>
           </div>
 
           <div className="summary-card">
-            <FaNetworkWired />
-            <h2>{totalClients}</h2>
-            <p>Total Clients</p>
+            <FaNetworkWired size={40} />
+            <h2>{report.totalNetworks}</h2>
+            <p>Networks Scanned</p>
           </div>
 
-          <div className="summary-card">
-            <FaBug />
-            <h2>{totalThreats}</h2>
-            <p>Threats Found</p>
+          <div className="summary-card danger">
+            <FaBug size={40} />
+            <h2>{report.rogueAPs}</h2>
+            <p>Rogue APs</p>
           </div>
         </div>
 
-        <div className="report-card">
-          <h2>Generate Report</h2>
+        <div className="overall-status">
+          <h2>
+            Overall Security :
+            <span
+              className={report.overallStatus === "SAFE" ? "safe" : "danger"}
+            >
+              {" "}
+              {report.overallStatus}
+            </span>
+          </h2>
+        </div>
 
-          <p>
-            Download complete security reports using your real scan history.
-          </p>
+        <div className="threat-table">
+          <h2>Detected Threats</h2>
 
-          <div className="buttons">
-            <button className="pdf" onClick={downloadPDF}>
-              <FaFilePdf />
-              Download PDF
-            </button>
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>SSID</th>
+                <th>Risk</th>
+                <th>Signal</th>
+                <th>Reason</th>
+              </tr>
+            </thead>
 
-            <button className="csv" onClick={downloadCSV}>
-              <FaFileCsv />
-              Export CSV
-            </button>
-          </div>
+            <tbody>
+              {report.threats.length === 0 ? (
+                <tr>
+                  <td colSpan="5">No threats detected</td>
+                </tr>
+              ) : (
+                report.threats.map((threat, index) => (
+                  <tr key={index}>
+                    <td>{new Date(threat.time).toLocaleString()}</td>
+
+                    <td>{threat.ssid}</td>
+
+                    <td>
+                      <span
+                        className={
+                          threat.risk === "SAFE"
+                            ? "safe"
+                            : threat.risk === "MEDIUM" ||
+                                threat.risk === "SUSPICIOUS"
+                              ? "warning"
+                              : "danger"
+                        }
+                      >
+                        {threat.risk}
+                      </span>
+                    </td>
+
+                    <td>{threat.signal}%</td>
+
+                    <td>{threat.reason}</td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
+
+        <div className="report-buttons">
+          <button onClick={exportCSV}>Export CSV</button>
+
+          <button
+            onClick={() =>
+              window.open("http://localhost:5000/api/reports/pdf", "_blank")
+            }
+          >
+            Download PDF
+          </button>
         </div>
       </div>
     </>

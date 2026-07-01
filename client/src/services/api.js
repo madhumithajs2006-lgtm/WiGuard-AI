@@ -1,11 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+const api = axios.create({
+  baseURL: "http://localhost:5000",
 });
 
-export const getScans = () => API.get("/scans");
-
-export const clearScans = () => API.delete("/scans");
-
-export default API;
+export default api;

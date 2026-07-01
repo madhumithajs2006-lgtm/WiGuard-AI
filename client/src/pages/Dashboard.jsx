@@ -1,11 +1,9 @@
 import "../styles/Dashboard.css";
 
-import { useState, useEffect, useRef } from "react";
-import { io } from "socket.io-client";
-import axios from "axios";
+import { useState, useEffect } from "react";
+import api from "../services/api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 import Sidebar from "../components/layout/Sidebar";
 import Header from "../components/layout/Header";
 
@@ -16,165 +14,153 @@ import NetworkOverview from "../components/dashboard/NetworkOverview";
 import ThreatHistory from "../components/dashboard/ThreatHistory";
 import Activity from "../components/dashboard/Activity";
 
-import { FaWifi, FaNetworkWired, FaExclamationTriangle } from "react-icons/fa";
+import { FaWifi, FaShieldAlt, FaExclamationTriangle } from "react-icons/fa";
 
 import { MdRouter } from "react-icons/md";
 
-const socket = io("https://wiguard-ai.onrender.com");
-
 function Dashboard() {
-  const [packets, setPackets] = useState(0);
-  const [clients, setClients] = useState(0);
-  const [rogueAPs, setRogueAPs] = useState(0);
-
-  const [packetHistory, setPacketHistory] = useState(
-    Array.from({ length: 20 }, () => 0),
-  );
-
-  const [activities, setActivities] = useState([]);
-  const [threatHistory, setThreatHistory] = useState([]);
+  const [dashboard, setDashboard] = useState({
+    totalNetworks: 0,
+    secureNetworks: 0,
+    suspiciousNetworks: 0,
+    highRiskNetworks: 0,
+    rogueAPs: 0,
+    status: "SAFE",
+    networks: [],
+  });
 
   const [backendConnected, setBackendConnected] = useState(false);
-  const [isScanning, setIsScanning] = useState(false);
-
-  const previousRogueAPs = useRef(0);
-
-  const status = rogueAPs >= 3 ? "DANGER" : rogueAPs >= 1 ? "WARNING" : "SAFE";
-
-  // ===========================
-  // SOCKET EVENTS
-  // ===========================
+  const [activities, setActivities] = useState([]);
+  const [threatHistory, setThreatHistory] = useState([]);
+  const [signalHistory, setSignalHistory] = useState([]);
+  const [isScanning, setIsScanning] = useState(true);
 
   useEffect(() => {
-    socket.on("connect", () => {
-      setBackendConnected(true);
-    });
+    async function loadScan() {
+      try {
+        console.log("API Base URL:", api.defaults.baseURL);
 
-    socket.on("disconnect", () => {
-      setBackendConnected(false);
-    });
+        const url = api.defaults.baseURL + "/api/scans";
+        console.log("Requesting:", url);
 
-    socket.on("dashboardData", (data) => {
-      setPackets(data.packets);
-      setClients(data.clients);
-      setRogueAPs(data.rogueAPs);
+        const res = await api.get("/api/scans");
 
-      setPacketHistory((prev) => [...prev.slice(1), data.packets]);
+        const networks = res.data;
 
-      const currentTime = new Date().toLocaleTimeString();
-      setActivities((prev) => {
-        const updated = [...prev];
+        console.log("Networks:", networks);
 
-        updated.unshift(`📡 ${currentTime} • Monitoring network`);
+        const secureNetworks = networks.filter((n) => n.risk === "SAFE").length;
 
-        if (data.clients > clients) {
-          updated.unshift(`🟢 ${currentTime} • Client Connected`);
-        }
+        const suspiciousNetworks = networks.filter(
+          (n) => n.risk === "MEDIUM" || n.risk === "SUSPICIOUS",
+        ).length;
 
-        if (data.rogueAPs > previousRogueAPs.current) {
-          updated.unshift(`🔴 ${currentTime} • Rogue AP Detected`);
-        }
+        const highRiskNetworks = networks.filter(
+          (n) => n.risk === "HIGH" || n.risk === "POSSIBLE ROGUE AP",
+        ).length;
 
-        if (data.packets > packets) {
-          updated.unshift(`📦 ${currentTime} • Packet Captured`);
-        }
+        const rogueAPs = networks.filter(
+          (n) => n.risk === "POSSIBLE ROGUE AP",
+        ).length;
 
-        return updated.slice(0, 20);
-      });
+        const avgSignal =
+          networks.length > 0
+            ? Math.round(
+                networks.reduce((sum, n) => sum + n.signal, 0) /
+                  networks.length,
+              )
+            : 0;
 
-      if (data.rogueAPs > previousRogueAPs.current) {
-        toast.warning("⚠ Rogue Access Point Detected!", {
-          position: "top-right",
-          autoClose: 3000,
+        setSignalHistory((prev) => [...prev.slice(-19), avgSignal]);
+        setDashboard({
+          totalNetworks: networks.length,
+          secureNetworks,
+          suspiciousNetworks,
+          highRiskNetworks,
+          rogueAPs,
+          status:
+            highRiskNetworks > 0
+              ? "DANGER"
+              : suspiciousNetworks > 0
+                ? "WARNING"
+                : "SAFE",
+          networks,
         });
 
-        setActivities((prev) => [
-          `🔴 ${currentTime} • Rogue AP Detected`,
-          ...prev.slice(0, 11),
-        ]);
+        setBackendConnected(true);
 
-        setThreatHistory((prev) => [
-          {
-            time: currentTime,
-            event: "Rogue Access Point Detected",
-            level: data.rogueAPs >= 3 ? "HIGH" : "MEDIUM",
-          },
-          ...prev.slice(0, 19),
-        ]);
+        const now = new Date().toLocaleTimeString();
+
+        const newActivities = [
+          `📶 ${now} Scan Completed`,
+          `📡 ${networks.length} Networks Detected`,
+        ];
+
+        networks.forEach((network) => {
+          if (network.risk !== "SAFE") {
+            newActivities.push(
+              `⚠ ${network.ssid || "Hidden Network"} → ${network.risk}`,
+            );
+          }
+        });
+
+        setActivities((prev) => [...newActivities, ...prev].slice(0, 20));
+
+        networks.forEach((network) => {
+          if (network.risk !== "SAFE") {
+            setThreatHistory((prev) =>
+              [
+                {
+                  time: now,
+                  event: `${network.ssid || "Hidden Network"} (${network.reason})`,
+                  level: network.risk,
+                },
+                ...prev,
+              ].slice(0, 20),
+            );
+          }
+        });
+      } catch (err) {
+        console.error(err);
+        setBackendConnected(false);
       }
+    }
 
-      if (data.clients > clients) {
-        setActivities((prev) => [
-          `🟢 ${currentTime} • New Client Connected`,
-          ...prev.slice(0, 11),
-        ]);
-      }
+    loadScan();
 
-      previousRogueAPs.current = data.rogueAPs;
-    });
-
-    return () => {
-      socket.off("connect");
-      socket.off("disconnect");
-      socket.off("dashboardData");
-    };
-  }, [clients]);
-
-  // ===========================
-  // ANIMATE CHART
-  // ===========================
-
-  useEffect(() => {
     const interval = setInterval(() => {
-      setPacketHistory((prev) => {
-        const next = packets + Math.floor(Math.random() * 25) - 12;
-
-        return [...prev.slice(1), Math.max(next, 0)];
-      });
-    }, 1000);
+      if (isScanning) {
+        loadScan();
+      }
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, [packets]);
-
-  // ===========================
-  // BUTTONS
-  // ===========================
+  }, [isScanning]);
 
   async function toggleScan() {
-    try {
-      if (!isScanning) {
-        await axios.post("https://wiguard-ai.onrender.com/api/detector/start");
-
-        toast.success("Scan Started");
-
-        setIsScanning(true);
-      } else {
-        await axios.post("https://wiguard-ai.onrender.com/api/detector/stop");
-
-        toast.info("Scan Stopped");
-
-        setIsScanning(false);
-      }
-    } catch (err) {
-      console.error(err);
-
-      toast.error("Unable to control detector");
+    if (isScanning) {
+      toast.info("Scanning Paused");
+      setIsScanning(false);
+    } else {
+      toast.success("Scanning Started");
+      setIsScanning(true);
     }
   }
 
   function resetDashboard() {
-    setPackets(0);
-    setClients(0);
-    setRogueAPs(0);
-
-    setPacketHistory(Array.from({ length: 20 }, () => 0));
+    setDashboard({
+      totalNetworks: 0,
+      secureNetworks: 0,
+      suspiciousNetworks: 0,
+      highRiskNetworks: 0,
+      rogueAPs: 0,
+      status: "SAFE",
+      networks: [],
+    });
 
     setActivities([]);
     setThreatHistory([]);
-
-    previousRogueAPs.current = 0;
-
-    setIsScanning(false);
+    setSignalHistory([]);
   }
 
   return (
@@ -185,65 +171,62 @@ function Dashboard() {
         <Header />
 
         <StatusCard
-          status={status}
+          status={dashboard.status}
           backendConnected={backendConnected}
-          packets={packets}
-          clients={clients}
-          rogueAPs={rogueAPs}
+          totalNetworks={dashboard.totalNetworks}
+          secureNetworks={dashboard.secureNetworks}
+          suspiciousNetworks={dashboard.suspiciousNetworks}
+          highRiskNetworks={dashboard.highRiskNetworks}
         />
 
         <div className="cards">
           <StatsCard
-            title="Packets Captured"
-            value={packets}
+            title="Networks Scanned"
+            value={dashboard.totalNetworks}
             icon={<FaWifi />}
             color="#00E5FF"
           />
 
           <StatsCard
-            title="Connected Clients"
-            value={clients}
-            icon={<FaNetworkWired />}
+            title="Secure Networks"
+            value={dashboard.secureNetworks}
+            icon={<FaShieldAlt />}
             color="#00FF99"
           />
 
           <StatsCard
-            title="Rogue APs"
-            value={rogueAPs}
-            icon={<MdRouter />}
-            color="#FF4D4D"
-          />
-
-          <StatsCard
-            title="Alerts"
-            value={rogueAPs}
+            title="Suspicious Networks"
+            value={dashboard.suspiciousNetworks}
             icon={<FaExclamationTriangle />}
             color="#FFD700"
           />
+
+          <StatsCard
+            title="Rogue APs"
+            value={dashboard.rogueAPs}
+            icon={<MdRouter />}
+            color="#FF4D4D"
+          />
         </div>
 
-        <PacketChart data={packetHistory} />
+        <PacketChart data={signalHistory} />
 
         <div className="dashboard-grid">
-          <NetworkOverview clients={clients} rogueAPs={rogueAPs} />
+          <NetworkOverview networks={dashboard.networks} />
 
           <ThreatHistory history={threatHistory} />
         </div>
 
         <Activity activity={activities} />
 
-        <div
-          style={{
-            display: "flex",
-            gap: "15px",
-            marginTop: "25px",
-          }}
-        >
-          <button onClick={toggleScan}>
-            {isScanning ? "⏹ Stop Scan" : "▶ Start Scan"}
+        <div className="button-group">
+          <button className="start-btn" onClick={toggleScan}>
+            {isScanning ? "⏸ Pause Scan" : "▶ Resume Scan"}
           </button>
 
-          <button onClick={resetDashboard}>🔄 Reset Dashboard</button>
+          <button className="reset-btn" onClick={resetDashboard}>
+            🔄 Reset Dashboard
+          </button>
         </div>
       </div>
 

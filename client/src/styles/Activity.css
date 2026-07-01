@@ -1,50 +1,153 @@
 .activity-card {
-  margin-top: 25px;
-  background: #1b2430;
-  border-radius: 18px;
-  padding: 22px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+
+  background: #101010;
+
+  border: 1px solid #222;
+
+  border-radius: 22px;
+
+  padding: 25px;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+
+  transition: 0.3s;
+}
+
+.activity-card:hover {
+  border-color: #00ff9d;
+
+  box-shadow: 0 0 20px rgba(0, 255, 157, 0.12);
 }
 
 .activity-header {
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
-  margin-bottom: 18px;
+
+  margin-bottom: 20px;
 }
 
 .activity-header h3 {
-  color: #00e5ff;
-}
-
-.activity-header span {
-  background: #0f5c78;
-  color: #00e5ff;
-  padding: 5px 12px;
-  border-radius: 30px;
-  font-size: 13px;
-}
-
-.activity-list {
-  max-height: 250px;
-  overflow-y: auto;
-}
-
-.activity-item {
-  padding: 12px 15px;
-  margin-bottom: 10px;
-  background: #111827;
-  border-left: 4px solid #00e5ff;
-  border-radius: 10px;
   color: white;
-  transition: 0.3s;
+
+  font-size: 22px;
+
+  margin: 0;
 }
 
-.activity-item:hover {
-  transform: translateX(6px);
-  background: #172033;
+.activity-header p {
+  color: #8f99a5;
+
+  margin-top: 5px;
+
+  font-size: 14px;
 }
 
-.empty {
-  color: #94a3b8;
+.live-tag {
+  padding: 8px 14px;
+
+  border-radius: 25px;
+
+  background: rgba(0, 255, 157, 0.12);
+
+  border: 1px solid rgba(0, 255, 157, 0.25);
+
+  color: #00ff9d;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  animation: pulse 1.6s infinite;
+}
+
+.activity-terminal {
+  background: #080808;
+
+  border: 1px solid #1c1c1c;
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  max-height: 320px;
+
+  overflow-y: auto;
+
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.activity-line {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 10px 0;
+
+  color: #00ff9d;
+
+  border-bottom: 1px solid #141414;
+
+  font-size: 14px;
+
+  animation: fadeIn 0.3s ease;
+}
+
+.terminal-arrow {
+  font-weight: bold;
+
+  color: #00ff9d;
+}
+
+.empty-terminal {
+  color: #777;
+
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.45;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.activity-terminal::-webkit-scrollbar {
+  width: 6px;
+}
+
+.activity-terminal::-webkit-scrollbar-thumb {
+  background: #333;
+
+  border-radius: 10px;
+}
+
+.activity-terminal::-webkit-scrollbar-thumb:hover {
+  background: #00ff9d;
 }

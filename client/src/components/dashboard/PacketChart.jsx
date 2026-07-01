@@ -1,48 +1,76 @@
 import "../../styles/PacketChart.css";
+
 import {
+  ResponsiveContainer,
   LineChart,
   Line,
-  ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
+  Tooltip,
   CartesianGrid,
 } from "recharts";
 
 function PacketChart({ data }) {
   const chartData = data.map((value, index) => ({
-    time: index + 1,
-    packets: value,
+    scan: index + 1,
+    signal: value,
   }));
+
+  const avgSignal =
+    data.length > 0
+      ? Math.round(data.reduce((a, b) => a + b, 0) / data.length)
+      : 0;
 
   return (
     <div className="chart-card">
-      <h3>📈 Live Packet Traffic</h3>
+      <div className="chart-top">
+        <div>
+          <h2>📡 Live Signal Intelligence</h2>
 
-      <ResponsiveContainer width="100%" height={320}>
+          <p>Average Wi-Fi signal strength from recent scans</p>
+        </div>
+
+        <div className="chart-right">
+          <div className="signal-box">
+            <small>AVG SIGNAL</small>
+
+            <h3>{avgSignal}%</h3>
+          </div>
+
+          <span className="live-badge">● LIVE</span>
+        </div>
+      </div>
+
+      <ResponsiveContainer width="100%" height={340}>
         <LineChart data={chartData}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#2f3a4a" />
+          <CartesianGrid stroke="#222" strokeDasharray="4 4" />
 
-          <XAxis dataKey="time" stroke="#94a3b8" />
+          <XAxis dataKey="scan" stroke="#666" />
 
-          <YAxis stroke="#94a3b8" />
+          <YAxis domain={[0, 100]} stroke="#666" />
 
           <Tooltip
             contentStyle={{
-              background: "#111827",
-              border: "1px solid #00E5FF",
-              borderRadius: "10px",
+              background: "#111",
+              border: "1px solid #00ff9d",
+              borderRadius: "12px",
+              color: "#fff",
             }}
           />
 
           <Line
             type="monotone"
-            dataKey="packets"
-            stroke="#00E5FF"
-            strokeWidth={3}
-            dot={false}
-            isAnimationActive={true}
-            animationDuration={500}
+            dataKey="signal"
+            stroke="#00ff9d"
+            strokeWidth={4}
+            dot={{
+              r: 4,
+              fill: "#00ff9d",
+            }}
+            activeDot={{
+              r: 7,
+              fill: "#00ff9d",
+            }}
           />
         </LineChart>
       </ResponsiveContainer>

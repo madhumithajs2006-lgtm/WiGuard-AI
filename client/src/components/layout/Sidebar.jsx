@@ -8,16 +8,29 @@ import {
   FaChartPie,
   FaFileAlt,
   FaCog,
+  FaServer,
+  FaWifi,
+  FaRobot,
+  FaShieldAlt,
 } from "react-icons/fa";
 
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <h2>🛡 WiGuard AI</h2>
+      <div className="sidebar-logo">
+        <div className="logo-icon">
+          <FaShieldAlt />
+        </div>
 
-      <small>Cyber Security Dashboard</small>
+        <div>
+          <h2>WiGuard AI</h2>
+          <small>Wireless Intrusion Detection</small>
+        </div>
+      </div>
 
-      <ul>
+      <div className="sidebar-divider"></div>
+
+      <ul className="sidebar-menu">
         <li>
           <NavLink
             to="/"
@@ -26,19 +39,7 @@ function Sidebar() {
             }
           >
             <FaHome />
-            Dashboard
-          </NavLink>
-        </li>
-
-        <li>
-          <NavLink
-            to="/history"
-            className={({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }
-          >
-            <FaHistory />
-            History
+            <span>Dashboard</span>
           </NavLink>
         </li>
 
@@ -50,7 +51,19 @@ function Sidebar() {
             }
           >
             <FaChartPie />
-            Analytics
+            <span>Analytics</span>
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/history"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            <FaHistory />
+            <span>History</span>
           </NavLink>
         </li>
 
@@ -62,7 +75,7 @@ function Sidebar() {
             }
           >
             <FaFileAlt />
-            Reports
+            <span>Reports</span>
           </NavLink>
         </li>
 
@@ -74,10 +87,32 @@ function Sidebar() {
             }
           >
             <FaCog />
-            Settings
+            <span>Settings</span>
           </NavLink>
         </li>
       </ul>
+
+      <div className="sidebar-status">
+        <h4>System Status</h4>
+
+        <div className="status-item">
+          <FaServer />
+          <span>Backend</span>
+          <div className="status-dot online"></div>
+        </div>
+
+        <div className="status-item">
+          <FaWifi />
+          <span>Scanner</span>
+          <div className="status-dot online"></div>
+        </div>
+
+        <div className="status-item">
+          <FaRobot />
+          <span>AI Engine</span>
+          <div className="status-dot online"></div>
+        </div>
+      </div>
     </aside>
   );
 }

@@ -1,44 +1,158 @@
-# 🛡️ WiGuard AI
+# 🛡️ WiGuard AI – Intelligent Wi-Fi Intrusion Detection System
 
-> AI-Powered Wireless Intrusion Detection System built with React, Node.js, Socket.IO and Python.
+WiGuard AI is a lightweight AI-assisted Wireless Intrusion Detection System (WIDS) that continuously monitors nearby Wi-Fi networks and identifies suspicious access points using multiple heuristic detection techniques.
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-Real--Time-black?logo=socket.io)
-![Python](https://img.shields.io/badge/Python-AI-yellow?logo=python)
-![License](https://img.shields.io/badge/License-MIT-blue)
+Unlike traditional Wi-Fi scanners, WiGuard AI focuses on early attack detection by analyzing network behavior, RSSI fluctuations, duplicate SSIDs, timing patterns, authentication methods, and suspicious network characteristics.
 
 ---
 
-## 📖 Overview
+## 📌 Problem Statement
 
-WiGuard AI is a real-time Wireless Intrusion Detection System (WIDS) that continuously monitors wireless network activity, detects suspicious access points, tracks connected devices, and provides live security analytics through an interactive dashboard.
+Current Wi-Fi systems are not efficient at detecting fake wireless access points and early-stage wireless attacks.
 
-The project combines:
+The objective of WiGuard AI is to develop a lightweight detection system that uses multiple techniques such as:
 
-- React
-- Node.js
-- Express
-- Socket.IO
-- Python
-- Chart.js
+- RSSI Analysis
+- Timing Analysis
+- Deauthentication Effect Monitoring
+- Duplicate SSID Detection
+- Authentication Analysis
+- Rogue Access Point Detection
 
-to simulate a modern Security Operations Center (SOC) dashboard.
+to identify suspicious wireless activity before users connect to malicious networks.
 
 ---
 
 # ✨ Features
 
-- 📡 Live Packet Monitoring
-- 📶 Rogue Access Point Detection
-- 👥 Connected Client Tracking
-- 📊 Real-Time Analytics Dashboard
-- 📈 Interactive Charts
-- 🔔 Live Threat Notifications
-- 📜 Scan History
-- 📄 CSV Report Export
-- 📑 PDF Report Generation
-- ⚡ Real-Time Socket.IO Communication
+### 📡 Real-Time Wi-Fi Scanning
+
+- Detects nearby Wi-Fi networks directly from Windows.
+- Displays SSID, BSSID, Signal Strength, Channel and Security.
+
+---
+
+### 🤖 Intelligent Threat Detection
+
+WiGuard AI analyzes every detected network using multiple detection techniques.
+
+Implemented techniques include:
+
+- Duplicate SSID Detection
+- Hidden SSID Detection
+- Open Authentication Detection
+- Weak Encryption Detection (WEP/WPA)
+- RSSI (Signal Strength) Analysis
+- Timing Analysis
+- New Network Appearance Detection
+- Suspicious SSID Detection
+- Rogue Access Point Detection
+
+---
+
+### 📈 Live Dashboard
+
+- Live Wi-Fi monitoring
+- Risk score visualization
+- Security status indicators
+- Threat cards
+- Event timeline
+
+---
+
+### 📊 Analytics
+
+Interactive charts for:
+
+- Signal Strength Trend
+- Threat Distribution
+- Networks Detected
+- Rogue AP Trend
+
+---
+
+### 📜 Scan History
+
+- Stores previous scans
+- Searchable history
+- Risk statistics
+- Timestamped events
+
+---
+
+### 📄 Security Reports
+
+Generate:
+
+- CSV Reports
+- PDF Reports
+
+Includes:
+
+- Overall Security Status
+- Rogue AP Count
+- Threat Summary
+- Scan Statistics
+
+---
+
+### ⚙ Settings
+
+- Notification controls
+- Auto scanning
+- Scan interval configuration
+- Backend status monitoring
+
+---
+
+# 🧠 Detection Techniques
+
+## 1. Duplicate SSID Detection
+
+Multiple networks broadcasting the same SSID may indicate an Evil Twin attack.
+
+---
+
+## 2. Authentication Analysis
+
+Flags networks using:
+
+- Open Authentication
+- WEP
+- Legacy WPA
+
+---
+
+## 3. RSSI (Signal Strength) Analysis
+
+Monitors sudden signal strength fluctuations which may indicate:
+
+- Fake Access Points
+- Rogue Devices
+- Device Relocation
+
+---
+
+## 4. Timing Analysis
+
+Tracks when a Wi-Fi network first appears.
+
+A network that suddenly appears and immediately advertises strong connectivity is treated as suspicious.
+
+---
+
+## 5. Deauthentication Effect Monitoring
+
+WiGuard AI monitors the effects commonly produced after deauthentication attacks instead of capturing raw deauthentication frames.
+
+Indicators include:
+
+- Sudden disappearance of known APs
+- Immediate reappearance
+- Rapid signal fluctuations
+- Unexpected network instability
+
+This lightweight approach avoids the need for monitor mode while still providing early warning signs.
 
 ---
 
@@ -46,138 +160,154 @@ to simulate a modern Security Operations Center (SOC) dashboard.
 
 ### Frontend
 
-- React
-- React Router
-- Chart.js
+- React.js
+- Vite
+- Recharts
+- Axios
 - React Icons
-- React Toastify
 
 ### Backend
 
 - Node.js
-- Express
-- Socket.IO
+- Express.js
 
 ### Detection Engine
 
-- Python
+- Windows netsh WLAN Scanner
+- Custom Detection Engine
+- Risk Calculation Module
 
-### Reports
+### Data Storage
 
-- jsPDF
-- json2csv
+- JSON-based Scan History
 
 ---
 
 # 📂 Project Structure
 
 ```
-WiGuard-AI
-│
-├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/
-│   ├── routes/
-│   ├── services/
-│   ├── controllers/
-│   ├── data/
-│   └── app.js
-│
-├── detector/
-│   └── detector.py
-│
-└── README.md
+client/
+    src/
+        components/
+        pages/
+        styles/
+        services/
+
+server/
+    controllers/
+    routes/
+    services/
+    data/
+    config/
 ```
 
 ---
 
 # 🚀 Installation
 
-Clone the repository
+## Clone repository
 
 ```bash
-git clone https://github.com/madhumithajs2006-lgtm/WiGuard-AI.git
+git clone https://github.com/YOUR_USERNAME/WiGuard-AI.git
 ```
 
-Open the project
+---
 
-```bash
-cd WiGuard-AI
-```
-
-Install frontend
+## Client
 
 ```bash
 cd client
 npm install
+npm run dev
 ```
 
-Install backend
+---
+
+## Server
 
 ```bash
-cd ../server
+cd server
 npm install
+npm start
 ```
 
-Run frontend
+---
 
-```bash
-cd ../client
-npm run dev
+Open
+
 ```
-
-Run backend
-
-```bash
-cd ../server
-npm run dev
+http://localhost:5173
 ```
 
 ---
 
 # 📸 Screenshots
 
-## 🏠 Dashboard
+## 📸 Screenshots
 
-![Dashboard](assets/dashboard.png.png)
+### 🏠 Dashboard
 
----
+The main dashboard provides a real-time overview of nearby Wi-Fi networks, security status, detected threats, and recent security events.
 
-## 📜 History
-
-![History](assets/history.png.png)
-
----
-
-## 📊 Analytics
-
-![Analytics](assets/analytics.png.png)
+![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshots/dashboard2.png)
+![Dashboard](screenshots/dashboard3.png)
 
 ---
 
-## 📄 Reports
+### 📊 Analytics
 
-![Reports](assets/reports.png.png)
+Visualizes network statistics, threat distribution, signal strength trends, and rogue access point detection using interactive charts.
+
+![Analytics](screenshots/analytics.png)
 
 ---
 
-## ⚙️ Settings
+### 📜 Scan History
 
-![Settings](assets/settings.png.png)
+Displays previously recorded Wi-Fi scans with timestamps, network counts, security status, and detected threats.
 
-# 📊 Future Improvements
+![Scan History](screenshots/history.png)
 
-- MongoDB Integration
-- Machine Learning Threat Detection
-- Authentication System
-- User Management
+---
+
+### 📄 Security Reports
+
+Generate comprehensive security reports with threat summaries and export them as CSV or PDF.
+
+![Reports](screenshots/reports.png)
+
+---
+
+### ⚙️ Settings
+
+Configure scan preferences, notification options, scan intervals, and view backend connection status.
+
+![Settings](screenshots/settings.png)
+
+# 🔮 Future Enhancements
+
+- Linux Monitor Mode Support
+- Real Packet Capture
+- Deauthentication Frame Detection
+- Machine Learning Threat Classification
+- Email & SMS Alerts
+- Database Integration
+- Multi-device Monitoring
+- Cloud Dashboard
 - Docker Deployment
-- Cloud Hosting
-- Email Alerts
-- Multi-Network Monitoring
+
+---
+
+# ⚠ Limitations
+
+Current implementation runs on Windows using the native `netsh` command.
+
+Windows does not provide raw 802.11 frame capture through netsh, therefore:
+
+- Actual deauthentication frames cannot be directly captured.
+- WiGuard AI detects the observable effects of deauthentication attacks instead of raw packets.
+- Timing and RSSI analysis are used as lightweight alternatives.
 
 ---
 
@@ -185,12 +315,10 @@ npm run dev
 
 **Madhu Mitha**
 
-GitHub
-
-https://github.com/madhumithajs2006-lgtm
+Computer Science Engineering Student
 
 ---
 
-## ⭐ Support
+# ⭐ If you like this project
 
-If you like this project, give it a ⭐ on GitHub.
+Give it a ⭐ on GitHub!
